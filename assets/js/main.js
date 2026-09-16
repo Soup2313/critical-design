@@ -1,6 +1,6 @@
 // main.js
 
-let targetElement = document.querySelector("h2");
+let targetElemment = document.querySelector("h2");
 
 targetElement.addEventListner("mouseover", function() {
    this.innerText = "TIME";
